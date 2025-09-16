@@ -5,9 +5,12 @@ import { Analytics } from "@vercel/analytics/next";
 import "./globals.css";
 
 export const metadata: Metadata = {
-  title: "v0 App",
+  title: "❤️Para mi Bebé❤️",
   description: "Created with v0",
   generator: "v0.app",
+  icons: {
+    icon: "/amorcito.png", // o '/mi-icono.png'
+  },
 };
 
 export default function RootLayout({
